@@ -1,0 +1,5 @@
+Control_ID,Control_Name,Category,Applicable,Justification,Implementation_Status
+A.5.15,Access control,Organizational,Yes,Core risk mitigation for customer data,Implemented via Identity Provider
+A.7.4,Physical security monitoring,Physical,No,100% remote company; no physical server room,Risk Accepted
+A.8.8,Management of technical vulnerabilities,Technological,Yes,Required for SaaS stack integrity,Automated via GitHub Dependabot & OpenVAS
+A.8.16,Monitoring activities,Technological,Yes,Required for audit logging and SIEM,Configured via CloudTrail & Wazuh
