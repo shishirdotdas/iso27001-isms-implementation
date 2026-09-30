@@ -1,0 +1,5 @@
+Asset_ID,Asset_Name,Asset_Type,Owner,Classification,Location
+AST-001,AWS Production VPC,Infrastructure,DevOps Lead,Restricted,AWS us-east-1
+AST-002,Customer DB (PostgreSQL),Data,CTO,Confidential,AWS RDS
+AST-003,GitHub Repositories,Source Code,Engineering Lead,Confidential,GitHub Cloud
+AST-004,Employee Laptops,Hardware,IT Admin,Internal,Remote
