@@ -1,0 +1,4 @@
+Risk_ID,Asset_ID,Threat,Vulnerability,Likelihood,Impact,Risk_Score,Treatment_Plan,Control_Mapping
+RSK-001,AST-002,Unauthorized DB access,Weak password / No MFA,3,5,15,Mitigate: Enforce IAM Roles & Okta MFA,A.5.15 / A.8.5
+RSK-002,AST-003,Source code leak,Overly permissive GitHub repos,2,4,8,Mitigate: Enable branch protection & SAML SSO,A.5.18
+RSK-003,AST-004,Device theft,Unencrypted hard drive,2,3,6,Mitigate: Enforce BitLocker/FileVault via MDM,A.8.1
